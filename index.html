@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="freshApp">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fresh</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-base64/angular-base64.js"></script>
+    <script src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/shared/basicAuth/base64Factory.js"></script>
+    <script src="app/shared/basicAuth/basicAuthFactory.js"></script>
+    <script src="app/components/login/loginController.js"></script>
+    <script src="app/components/home/homeController.js"></script>
+    <script src="app/components/fridges/fridgesController.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="/#/login">login</a>
+    </header>
+    <div ng-view></div>
+  </body>
+</html>

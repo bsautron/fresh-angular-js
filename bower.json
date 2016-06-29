@@ -1,0 +1,18 @@
+{
+  "name": "freshangularjs",
+  "description": "",
+  "main": "",
+  "authors": [
+    "bsautron <sautron.brunojj@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

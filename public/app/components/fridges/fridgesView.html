@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <td>Name</td>
+    <td>Create at</td>
+  </tr>
+  <tr ng-repeat="fridge in fridges">
+    <td>{{fridge.name}}</td>
+    <td>{{fridge.createdAt}}</td>
+  </tr>
+</table>
+
+<form ng-submit="addFridge()">
+  <input ng-model="name" type="text"/>
+</form>
